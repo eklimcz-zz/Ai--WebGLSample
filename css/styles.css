@@ -1,0 +1,50 @@
+
+/* =============================================================================
+   HTML5 reset
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+
+html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+
+::-moz-selection { background: #5db7cd; color: #fff; text-shadow: none; }
+::selection { background: #5db7cd; color: #fff; text-shadow: none; }
+
+a {
+    text - decoration: none;
+    color: inherit
+}
+a: active,
+a: focus {
+    outline: 0
+}
+
+
+/* =============================================================================
+   Site styles
+   ========================================================================== */
+
+body{
+	font-family: Monospace;
+	/*
+	background-image: url(../img/bg2.jpg);
+	background-size: cover;	
+	*/
+	background-color: #1a1a1a;
+	margin: 0px;
+	overflow: hidden;   
+			
+}
+
+#controls{
+	position: absolute;
+	top:20px;
+	left:20px;
+}
